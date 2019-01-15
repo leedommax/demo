@@ -3,7 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueOccupy from 'vue-occupy'
 
+Vue.use(VueOccupy)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
